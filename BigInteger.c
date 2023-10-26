@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct BigInteger initializeList() {
+struct BigInteger initialize() {
     struct BigInteger list;
     list.head = NULL;
     return list;
